@@ -1,0 +1,28 @@
+h1,h2{
+    text-align: center;
+}
+body{
+    position: relative;
+}
+.cell:hover{
+    stroke: black;
+    stroke-width: 2px;
+}
+#tooltip{
+    background-color: rgba(0, 0, 0, 0.726);
+    border-radius: 10px;
+    position: absolute;
+    padding: 10px;
+}
+
+#tooltip.hidden{
+    display: none
+}
+
+#value{
+    margin: 0;
+    font-size: 18px;
+    color: white;
+    text-align: center;
+}
+
